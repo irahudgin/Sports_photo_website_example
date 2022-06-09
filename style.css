@@ -1,0 +1,169 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: #403e7f;
+  padding: 16px;
+  justify-content: space-between;
+  color: white;
+}
+
+.header p {
+  font-size: larger;
+  padding-left: 30px;
+  font-weight: 600;
+}
+
+.header a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: 300;
+  font-size: small;
+}
+
+.underheader {
+  background-color: #e9bbbb;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.underheaderstuff {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.underheaderstuff p {
+  width: 300px;
+  color: rgb(96, 102, 108);
+}
+
+.underheaderstuff h1 {
+  max-width: 400px;
+  font-weight: 900;
+}
+
+.midcard {
+  background-color: #8d94a7;
+  padding: 30px;
+}
+
+.midcard h2 {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+.cardholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cardholder h2 {
+  text-align: center;
+}
+
+.imgholder {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cardtext img {
+  width: 10vw;
+  height: 10vw;
+  padding: 0;
+  border-radius: 5vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardtext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardtext p {
+  text-align: center;
+  width: 10vw;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quoteholder {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.quoteholder q {
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 7px;
+}
+
+.quoteholder p {
+  font-weight: lighter;
+  text-align: right;
+}
+
+.abovefooter {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abovefooter button {
+  align-self: center;
+}
+
+img {
+  width: calc(50vw - 30px);
+  padding-right: 30px;
+}
+ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-right: 30px;
+}
+
+button {
+  align-self: center;
+  width: 100px;
+  background-color: #403e7f;
+  color: white;
+  border: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 10px;
+}
